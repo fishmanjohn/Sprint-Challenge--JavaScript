@@ -30,26 +30,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+forEach does not retun an array .map does
+
 2. What is the difference between a function and a method?
+
+a method is a function that is the property of an object.
 
 3. What is closure?
 
+the property that allows a function to reach things from the global scope but keeps things from the global scope from accessing items in the functions local scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+ [1] window and object binding, when in the global scope this = the console object. [2] implisit binding, when a function is called with a preceeding dot. [3] new binding, when a constructor function is used. [4] explict binding, when ever you use call or apply.
+
 5. Why do we need super() in an extended class?
+replaces the .call() method
+
+
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [/] Create a forked copy of this project.
+- [/] Add TL as collaborator on Github.
+- [/] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [/] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [/] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [/] You are now ready to build this project with your preferred IDE
+- [/] Implement the project on your Branch, committing changes regularly.
+- [/] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -66,11 +77,11 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [/] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
